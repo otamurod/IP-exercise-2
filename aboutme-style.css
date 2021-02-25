@@ -1,0 +1,39 @@
+h1 {
+	color: blue;
+}
+
+table {
+	color: #035003;
+	border: 1px solid green;
+	border-collapse: collapse;
+}
+
+ul {
+	font-size: 14pt;
+	font-family: Times New Roman;
+}
+
+ol {
+	font-family: Tahoma;
+	font-size: 14pt;
+}
+
+p {
+	font-size: 16pt;
+	color: #e8491d;
+	font-weight: bold;
+}
+
+body {
+	background-color: #b0c1d5;
+	margin: 0 auto;
+	max-width: 50em;
+}
+
+img {
+	height: 10em;
+}
+
+footer {
+	color: black;
+}
