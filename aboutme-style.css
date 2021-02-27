@@ -1,11 +1,22 @@
 h1 {
 	color: blue;
+	text-align: center;
 }
 
-table {
+h3 {
+	color: blue;
+	text-indent: 3em;
+	font-size: 20pt;
+}
+
+table, th, tr, td {
 	color: #035003;
 	border: 1px solid green;
 	border-collapse: collapse;
+	text-align: center;
+	table-layout: fixed;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 ul {
@@ -18,22 +29,51 @@ ol {
 	font-size: 14pt;
 }
 
+a {
+	outline: none;
+	text-decoration: none;
+	padding: 2px 1px 0;
+}
+
+a:link {
+	color: green;
+}
+
+a:visited {
+	color: #7a164f;
+}
+
+a:hover {
+	border-bottom: 1px solid;
+	background: #CDFEAA;
+}
+
 p {
 	font-size: 16pt;
-	color: #e8491d;
+	color: #f34008;
 	font-weight: bold;
 }
 
+#intro {
+	color: #16046b;
+}
+
 body {
-	background-color: #b0c1d5;
+	background: url('./img/background.jpg') no-repeat;
+	background-size: cover;
 	margin: 0 auto;
 	max-width: 50em;
 }
 
 img {
-	height: 10em;
+	height: 12em;
+}
+
+hr {
+	border: 1px solid green;
 }
 
 footer {
 	color: black;
+	text-align: center;
 }
